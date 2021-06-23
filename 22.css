@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+}
+
+/* les infos en haut */
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* le text dans les info */
+
+.menu, p{
+    text-align: end;
+    font-size: 22px;
+}
+
+header{
+    flex-basis: 50%;
+    height: 20vh;
+    border: solid black 4.5px;
+    border-top: solid black 7.2px;
+    border-bottom: solid black 4px;
+    box-sizing: border-box;
+}
+
+footer{
+    flex-basis: 50%;
+    height: 20vh;
+    border: solid black 4.5px;
+    border-top: solid black 7.2px;
+    border-bottom: solid black 4px;
+    box-sizing: border-box;
+}
+
+/* le menu */
+
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.space{
+    background-color: blueviolet;
+    flex-basis: 50%;
+    height: 40vh;
+    border: solid black 4.5px;
+    border-top: solid black 5px;
+    border-bottom: solid black 5px;
+    box-sizing: border-box;
+}
+
+.member{
+    background-color: pink;
+    flex-basis: 50%;
+    height: 40vh;
+    border: solid black 4.5px;
+    border-top: solid black 5px;
+    border-bottom: solid black 5px;
+    box-sizing: border-box;
+}
+
+.membership{
+    background-color: yellow;
+    flex-basis: 50%;
+    height: 40vh;
+    border: solid black 4.5px;
+    border-top: solid black 5px;
+    border-bottom: solid black 5px;
+    box-sizing: border-box;
+}
+
+.contact{
+    background-color: greenyellow;
+    flex-basis: 50%;
+    height: 40vh;
+    border: solid black 4.5px;
+    border-top: solid black 5px;
+    border-bottom: solid black 5px;
+    box-sizing: border-box;
+}
+
+/* effet text */
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+h1:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
